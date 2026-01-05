@@ -5,7 +5,7 @@ parent: MultiTool
 nav-order: 4
 ---
 
-### <p style="text-align: center;">Valve Sizing Tool</p>
+### <div class = "code-example" markdown = "1"><p style="text-align: center;">Valve Sizing Tool</p></div>
 ---
 Tool for choosing piping and valve sizing based on fluid GPM. This is intended to be used by sales as a means of providing AD-approved valve sizing.  
 <img 
@@ -28,8 +28,9 @@ The only allowable input is fluid GPM. Pipe size is outputted in the line box an
 
 #### Formulas
 ---
+<div class = "code-example" markdown = "1">
 $$\text{Inner Diameter} = \sqrt{\frac{Q * 144}{v * \frac{\pi}{4} * 448.86}}$$
-
+</div>
 #### Code
 --- 
 Piping sizes are pulled based on the following table:
@@ -57,3 +58,4 @@ Piping sizes are pulled based on the following table:
 |8.0 | PICV0 | 1220 | 1100 |
 |10.0 | PICV0 | 1220 | 1600 |
 
+</div>
