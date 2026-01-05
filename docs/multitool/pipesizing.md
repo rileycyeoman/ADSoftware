@@ -61,3 +61,13 @@ Piping sizes are pulled based on the following table:
 |10.0 | PICV0 | 1220 | 1600 |
 
 </div>
+
+```meraid
+graph TD;
+    accTitle: the diamond pattern
+    accDescr: a graph with four nodes: A points to B and C, while B and C both point to D
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
