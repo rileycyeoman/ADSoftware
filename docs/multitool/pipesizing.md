@@ -5,7 +5,7 @@ parent: MultiTool
 nav-order: 4
 ---
 {: .text-center }
-### Valve Sizing Tool
+> ### Valve Sizing Tool
 
 ---
 Tool for choosing piping and valve sizing based on fluid GPM. This is intended to be used by sales as a means of providing AD-approved valve sizing.  
