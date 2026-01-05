@@ -63,17 +63,10 @@ Piping sizes are pulled based on the following table:
 </div>
 
 
-graph TD;
-    accTitle: the diamond pattern
-    accDescr: a graph with four nodes: A points to B and C, while B and C both point to D
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+
 ::: mermaid
 graph TD;
-    A-->B;
-    A-->C;
+    A(Input GPM)
+    A-->B(fd);
     B-->D;
-    C-->D;
 :::
