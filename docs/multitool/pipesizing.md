@@ -17,5 +17,7 @@ Tool for choosing piping and valve sizing based on fluid GPM. This is intended t
 </img>
 
 
+{: .warning }
+Check with the AD team when using GPMs outside of normal ranges, particularily with valve sizes above 10".
 
 
