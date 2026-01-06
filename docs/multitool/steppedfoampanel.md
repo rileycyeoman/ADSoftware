@@ -14,12 +14,13 @@ Stepped Panel design foam calcualtion. This calculator outputs the volume, costs
 
 #### Variables
 ---
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 The following are the current variables that are kept constant in the code:
-+ $\rho_{steel} = 0.284\frac{lb}{in^3}$, Density of steel 
-+ $22ga = 0.03in$, Steel gauge
-+ $\text{Thickness} = 2 * Gauge$, Both sides of panel to be subtracted from length  
-+ $\rho_{Foam} = 2.5$, Foam Density
-+ Foam Ratio: 0.47
+- $\rho_{steel} = 0.284\frac{lb}{in^3}$, Density of steel 
+- $22ga = 0.03in$, Steel gauge
+- $\text{Thickness} = 2 * Gauge$, Both sides of panel to be subtracted from length  
+- $\rho_{Foam} = 2.5$, Foam Density
+- Foam Ratio: 0.47
 
 
 #### Formulas
