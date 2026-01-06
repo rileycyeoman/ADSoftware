@@ -16,7 +16,7 @@ Tool for choosing piping and valve sizing based on fluid GPM. This is intended t
   alt="PIC Valve">
 
 The only allowable input is fluid GPM. Pipe size is outputted in the line box and the text browser displays the corresponding Griswold valve based on a search table.
-
+IS THIS UPDATING
 
 {: .warning }
 >Check with the AD team when using GPMs outside of normal ranges, particularily with valve sizes above 10".
