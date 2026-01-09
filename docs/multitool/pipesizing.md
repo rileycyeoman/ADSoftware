@@ -52,7 +52,7 @@ The constants **144** and **448.86** convert the result from gallons per minute 
 #### Code
 --- 
 Piping sizes are pulled based on the following table:
-{ .code-example }
+
 |Pipe Size|	Griswold Valve	|Griswold Rating	|ASHRAE Rating|
 |:----------|:------------|:---------|:--- |
 |0.5|	PICV0|	7	|5.75|
