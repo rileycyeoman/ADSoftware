@@ -27,9 +27,12 @@ window.MathJax = {
 </script>
 
 <script
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
+  defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
   async>
 </script>
+<!-- <script 
+  defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
+</script> -->
 The following are the current variables that are kept constant in the code:
 - $\rho_{steel} = 0.284\frac{lb}{in^3}$, Density of steel 
 - $\rho_{foam} = 2.5\frac{lb}{ft^3}$, Foam Density
