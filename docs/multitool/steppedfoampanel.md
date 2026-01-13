@@ -26,13 +26,14 @@ window.MathJax = {
 };
 </script>
 
-<script
+<!-- <script
   defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
   async>
-</script>
+</script> -->
 <!-- <script 
   defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
 </script> -->
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js"></script>
 The following are the current variables that are kept constant in the code:
 - $\rho_{steel} = 0.284\frac{lb}{in^3}$, Density of steel 
 - $\rho_{foam} = 2.5\frac{lb}{ft^3}$, Foam Density
@@ -53,7 +54,7 @@ $$
 $$
 - Depth of outer panel: $\text{outer\_depth} = 1.138\text{"}$. Because the inner panel is modular but not the outer, this value remains constant. 
 - Offset $= 0.255$", Distance from inner to outer panel
-- $\text{cut\_out} =  4 * 17.4 in^2$. Cutout of sheet metal, this is the total surface area of hypothetical rectangular sheet metal minus the true value. This is essentially the sheet metal minus the corners, represented in the shaded area of the following image:
+- $\text{cut_out} =  4 * 17.4 in^2$. Cutout of sheet metal, this is the total surface area of hypothetical rectangular sheet metal minus the true value. This is essentially the sheet metal minus the corners, represented in the shaded area of the following image:
 <img
   style="display:block;margin-left:auto;margin-right:auto;"
   src="{{ site.baseurl }}/images/cutout.png"
