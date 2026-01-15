@@ -65,7 +65,7 @@ $$
 $$
 \text{Junction Box} = \begin{cases} 
     \text{CSP}, & \text{if (Field-Mounted)} \text{ AND } (\text{EC+}) \\
-    \text{MSP}, & \text{if (EC+)} \text{ AND } \neg \text{(Field-Mounted)} \\
+    \text{MSP}, & \text{if }\neg \text{(Field-Mounted)}  \text{ AND } \text{(EC+)} \\
     \text{Basic}, & \text{if (Field-Mounted)} \text{ AND } \neg(\text{EC+})
 \end{cases}
 $$
@@ -104,7 +104,7 @@ $$
 
 <u>Wiring Outputs</u>
 
-Power and Ground junction fan connections are found from the references tables. The value given in FLA is searched in "Derate for 4-6 Conductors, 78-86F" in table 3 for power connections and "Ground Wire Rating" in table 4 for ground connections.
+Power and Ground junction fan connections are found from the references tables. The value given in FLA is searched in *Derate for 4-6 Conductors, 78-86F* in table 3 for power connections and *Ground Wire Rating* in table 4 for ground connections.
 
 Control connections will always be 18 AWG as long as a junction box is present. 
 
