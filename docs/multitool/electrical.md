@@ -104,6 +104,12 @@ $$
 
 <u>Wiring Outputs</u>
 
+Power and Ground junction fan connections are found from the references tables. The value given in FLA is searched in "Derate for 4-6 Conductors, 78-86F" in table 3 for power connections and "Ground Wire Rating" in table 4 for ground connections.
+
+Control connections will always be 18 AWG as long as a junction box is present. 
+
+Fan Conduit type will be "Plenum" as long as there is power.
+Array Conduit will be 
 
 #### VFD and Miscellaneous Calculator
 
