@@ -1,5 +1,5 @@
 ---
-title: Basic Foam Calculator
+title: Foam Panel Calculator
 layout: home
 parent: MultiTool
 nav-order: 2

@@ -52,6 +52,16 @@ $$
     2.64\text{"} & \text{if } Depth = 4\text{"} 
 \end{cases}
 $$
+- Outer flange return length: $1.709"$ per side  
+- Total flange: $2 × 1.709 = 3.418"$
+
+- Flange cutout area:
+\[
+A_{cut} = 2.657 × 8 = 21.256 \text{ in}^2
+\]
+
+
+
 
 
 - Depth of outer panel: $d_{\text{outer}} = 1.138\text{"}$. Because the inner panel is modular but not the outer, this value remains constant. 
@@ -62,6 +72,14 @@ $$
   src="{{ site.baseurl }}/images/cutout.png"
   alt="Sheet Metal Cutout">
 
+#### Input Constraints
+- Length and width must be greater than 0
+- Depth selectable only as:
+  - 2"
+  - 3"
+  - 4"
+- Negative internal dimensions are clamped to zero
+- Density and ratio default if user enters ≤ 0
 
 
 
@@ -78,9 +96,14 @@ $$ \text{Outer Volume} = \text{Outer Length} * \text{Outer Width} *  \text{Outer
 
 <u>Interior Volume of Inner Panel</u>
 
-$$ \text{Inner Length} = \text{Outer Length} - \text{Flange} -  \text{2 * Offset}$$ 
+$$
+\text{Inner Length} = \text{Outer Length} - \text{Flange} + 2(\text{Offset})
+$$
 
-$$ \text{Inner Width} = \text{Width} - \text{Thickness}$$
+$$
+\text{Inner Width} = \text{Outer Width} - \text{Flange} + 2(\text{Offset})
+$$
+
 
 $$ \text{Inner Depth} = \text{Depth} - \text{Outer Depth} -  \text{Gauge}$$
 
