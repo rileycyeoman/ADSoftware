@@ -86,32 +86,32 @@ The nominal size and respective inner and outer diameters are shown below:
 --- 
 Piping sizes are pulled based on the following table:
 
-|Pipe Size|	Griswold Valve	|Griswold Rating	|ASHRAE Rating|
-|:----------|:------------|:---------|:--- |
-|0.5|	PICV0|	7	|5.75|
-|0.75	|PICV0	|15	|12.3|
-|1.0|	PICV0|	15	|20.5|
-|1.0|	PICV1|	30|	20.5|
-|1.25|	PICV1|	35|	31.2|
-|1.5|PICV1	|35	|44.2|
-|1.5|PICV2	|85	|44.2|
-|2.0|PICV2	|85	|76.2|
-|2.5|	PICV2	|95	|110|
-|2.5|MVP31	|113	|110|
-|3.0|PICV2	|95	|170|
-|3.0|MVP31	|113|	170|
-|3.0|MVP32	|157|	170|
-|3.0|MVP41	|149|	170|
-|3.0|MVP42	|225	|170|
-|4.0|MVP41	|149	|320|
-|4.0|MVP42	|225	|320|
-|4.0|MVP43	|320|320|
-|5.0|MVP51	|369	|370|
-|5.0|MVP52	|468	|370|
-|6.0|MVP51	|369	|660|
-|6.0|MVP52	|468	|660|
-|8.0|MVP62	|1220|	1100|
-|10.0|MVP62	|1220|	1600|
+|Pipe Size|	Griswold Valve	| Griswold Min Flow|Griswold Max Flow	|ASHRAE Max Flow| Butterfly Valve | Accessory|
+|:----------|:------------|:---------|:--- |:--- |:--- |:--- |
+|0.5 |PICV0|  0  | 7	|5.75 |             N/A               |Isolator S - IS0 |  
+|0.75|PICV0|  0	 | 15	|12.3 |             N/A               |Isolator S - IS1 | 
+|1.0 |PICV0|  0  | 15	|20.5 |             N/A               |Isolator S - IS1 | 
+|1.0 |PICV1|  0  | 30 |	20.5|             N/A               |Isolator S - IS1 | 
+|1.25|PICV1|  0  | 35 |	31.2|             N/A               |Isolator S - IS2 | 
+|1.5 |PICV1|  0  | 35	|44.2 |             N/A               |Isolator S - IS2 | 
+|1.5 |PICV2|  0  | 85	|44.2 |             N/A               |Isolator S - IS2 |  
+|2.0 |PICV2|  0  | 85	|76.2 |             N/A               |Isolator S - IS3 | 
+|2.5 |PICV2|  0  | 95	|110  |             N/A               |Isolator S - IS4 | 
+|2.5 |MVP31|40.7 | 113|110  |Griswold Butterfly Valve - 2.5"|Isolator S - IS4 | 
+|3.0 |PICV2|  0  | 95	|170  |             N/A               |Isolator S - IS4 | 
+|3.0 |MVP31|40.7 | 113|	170 |Griswold Butterfly Valve - 3"  |Isolator S - IS4 | 
+|3.0 |MVP32|56.3 |157 |	170 |Griswold Butterfly Valve - 3"  |Isolator S - IS4 | 
+|3.0 |MVP41|55.4 |149 |	170 |Griswold Butterfly Valve - 3"  |Isolator S - IS4 | 
+|3.0 |MVP42|75   |225	|170  |Griswold Butterfly Valve - 3"  |Isolator S - IS4 | 
+|4.0 |MVP41|55.4 |149	|320  |Griswold Butterfly Valve - 4"  |Y Strainer  - 4" | 
+|4.0 |MVP42|75   |225	|320  |Griswold Butterfly Valve - 4"  |Y Strainer  - 4" | 
+|4.0 |MVP43|103  |320 |320  |Griswold Butterfly Valve - 4"  |Y Strainer  - 4" |
+|5.0 |MVP51|103  |369	|370  |             TBD               |Y Strainer  - 5" | 
+|5.0 |MVP52|103  |468	|370  |             TBD               |Y Strainer  - 5" |  
+|6.0 |MVP51|113  |369	|660  |             TBD               |Y Strainer  - 6" | 
+|6.0 |MVP52|113  |468	|660  |             TBD               |Y Strainer  - 6" | 
+|8.0 |MVP62|146  |1220|1100 |             TBD               |Y Strainer  - 8" | 
+|10.0|MVP62|146  |1220|1600 |             TBD               |Y Strainer  - 10" | 
 
 
 The following logic is used to determine which pipe size to use:
