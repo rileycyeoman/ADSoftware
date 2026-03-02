@@ -92,7 +92,6 @@ function getShipDate() {
     }
     usedCurrent = true;
     // otherwise we have a deficit. keep pulling shipments
-    // let shipDate = null;
     // if availability is negative and the index is still within range
     while (available < 0 && shipmentIndex < shipments.length) {
       available += shipments[shipmentIndex].qty;
