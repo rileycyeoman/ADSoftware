@@ -9,7 +9,7 @@ nav-order: 2
 
 {: .text-center }
 
-**###** <u>**Basic Foam Panel Calculator**</u>
+<u>Basic Foam Panel Calculator</u>
 
 ---
 
@@ -85,7 +85,7 @@ $$
 \$1.81 \text{ per } ft^2
 $$
 
-The painted price is used when the **Painted Panel** checkbox is selected. Otherwise, the calculator uses the unpainted price of $$0.98/ft^2$.
+The painted price is used when the **Painted Panel** checkbox is selected. Otherwise, the calculator uses the unpainted price of 0.98/ft^2$.
 
 * Total Steel Thickness:
 
@@ -113,23 +113,6 @@ $$
 
 ---
 
-**#### Input Constraints**
-
-* Length must be greater than or equal to $0$
-
-* Width must be greater than or equal to $0$
-
-* Depth must be greater than or equal to $0$
-
-* Foam Density must be greater than $0$
-
-* Chemical Ratio must be greater than $0$
-
-* All numeric inputs accept values up to:
-
-$$
-10,000,000
-$$
 
 * If Foam Density is left blank or entered as $0$, the calculator defaults to:
 
@@ -147,7 +130,7 @@ $$
 
 ---
 
-**#### Formulas**
+**Formulas**
 
 ---
 
@@ -187,17 +170,6 @@ $$
 Bend\ Deduction = 0.144"
 $$
 
-Therefore:
-
-$$
-Outer\ Length = Length + 2(Depth) - 0.144
-$$
-
-$$
-Outer\ Width = Width + 2(Depth) - 0.144
-$$
-
----
 
 <u>Outer Panel Weight</u>
 
@@ -258,18 +230,6 @@ Where:
 $$
 Offset = 0.124"
 $$
-
-Therefore:
-
-$$
-Inner\ Length = Outer\ Length - 0.124
-$$
-
-$$
-Inner\ Width = Outer\ Width - 0.124
-$$
-
----
 
 <u>Inner Panel Weight</u>
 
@@ -366,14 +326,6 @@ Foam\ Price =
 \$3.01/lb
 $$
 
-Therefore:
-
-$$
-Foam\ Cost =
-Foam\ Weight
-\times
-3.01
-$$
 
 ---
 
