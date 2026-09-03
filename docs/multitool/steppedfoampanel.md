@@ -12,7 +12,7 @@ nav-order: 3
   src="{{ site.baseurl }}/images/StepPanelDim3.png"
   alt="PIC Valve">
 
-Stepped Panel design foam calcualtion. This calculator outputs the volume, costs, and shot times for a given panel design. The inputs are length, width, and depth. Depth is relagated to 2", 3", and 4", as there will be no deviation from these depths in production.
+Stepped Panel design foam calculation. This calculator outputs the volume, costs, and shot times for a given panel design. The inputs are length, width, and depth. Depth is relegated to 2", 3", and 4", as there will be no deviation from these depths in production.
 
 
 #### Variables
